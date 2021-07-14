@@ -17,7 +17,18 @@ html {
 body {
   color: #545149;
   background-color: #f4f1ec;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 24px;
+}
+
+main {
+  width: 90%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f1ec;
+  margin-right: 0;
 }
 
 /*

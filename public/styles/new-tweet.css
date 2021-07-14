@@ -1,0 +1,46 @@
+.container {
+  width: 90%;
+  align-content: center;
+  margin: 0 auto;
+}
+
+#new-tweet {
+  width: 100%;
+  align-content: center;
+  margin: 0, auto;
+  
+}
+
+#hum {
+  font-family: "Source Sans Pro bold", sans-serif;
+  
+}
+
+#tweet-text {
+  width: 100%;
+  border: none;
+  resize: none;
+  background: none;
+  font-family: "Source Sans Pro", sans-serif;
+  border-bottom: 4px solid black;
+
+}
+
+.submit {
+  font-family: Bungee;
+  color: white;
+  background-color: rgb(85, 85, 255);
+  border: none;
+  margin-right: 63em;
+  
+}
+
+.counter {
+font-family: Bungee;
+text-align: right;
+
+}
+
+.limit {
+  color: red;
+}
