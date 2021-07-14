@@ -1,7 +1,8 @@
 .container {
   width: 90%;
   align-content: center;
-  margin: 0 auto;
+  margin: 0, auto;
+  margin-left: 3em;
 }
 
 #new-tweet {
@@ -31,7 +32,7 @@
   color: white;
   background-color: rgb(85, 85, 255);
   border: none;
-  margin-right: 63em;
+  margin-right: 60em;
   
 }
 

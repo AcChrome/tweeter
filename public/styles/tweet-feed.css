@@ -1,0 +1,62 @@
+
+
+article.tweet-header {
+  height: 240px;
+  width: 90%;
+  margin: 0, auto;
+  border: solid 5px;
+  margin-top: 1.5em;
+  margin-left: 3.5em;
+  padding-left: 1.5em;
+}
+
+#bob {
+  float: left;
+}
+
+.old-tweet {
+  border: none;
+  background: none;
+  font-family: "Source Sans Pro", sans-serif;
+  border-bottom: 4px solid black;
+  padding-bottom: 1em;
+  margin-top: 2.5em;
+  margin-bottom: 0.3em;
+  width: 98%;
+}
+
+.user {
+  float: right;
+  color: gray;
+  margin-right: 1.5em;
+}
+
+.ten-days {
+  font-size: 16px;
+  font-family: "Source Sans Pro bold", sans-serif;
+
+
+}
+
+.icon {
+  
+  float: right;
+  margin-right: 1.5em;
+  color: #6B00C4;
+}
+
+article.tweet-header:hover {
+  box-shadow: 10px 10px #D5ADF5;
+}
+
+.fas.fa-flag:hover {
+  color: #FF9898;
+}
+
+.fas.fa-retweet:hover {
+  color: #FF9898;
+}
+
+.fas.fa-heart:hover {
+  color: #FF9898;
+}
