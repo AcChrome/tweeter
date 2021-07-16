@@ -31,7 +31,7 @@ Once you are setup can run Tweeter:
 
 `npm start`
 
-(http://localhost:8080) to start tweeting.
+http://localhost:8080 to start tweeting.
 
 # Final Product
 
