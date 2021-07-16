@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <!-- Meta Information -->
     <title>Tweeter - Home Page</title>
@@ -41,7 +42,7 @@
     <!-- Top nav bar (fixed) -->
     <nav>
       <span class="logo">tweeter</span>
-      <div class="arrow">
+      <div id="arrow">
         <span class="newTweet"><b>Write</b> a new tweet</span>
         <br />
         <i class="fas fa-angle-double-down"></i>
@@ -62,27 +63,32 @@
     <main class="container">
       <section class="new-tweet">
         <h3 id="error"></h3>
-        <br>
+        <br />
         <form id="submit-tweet" action="/tweets" method="POST">
           <label id="hum" for="tweet-text">What are you humming about?</label>
           <textarea name="text" id="tweet-text"></textarea>
           <div>
             <button class="submit" type="submit">Tweet</button>
-            <output name="counter"class="counter" id="counter" for="tweet-text">140</output>
+            <output name="counter" class="counter" id="counter" for="tweet-text"
+              >140</output
+            >
           </div>
         </form>
       </section>
     </main>
-    <br>
+    <br />
     <article id="tweets-container"></article>
-    <br>
+    <br />
   </body>
-
-  
 
   <!-- External JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js" integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js"
+    integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
 
   <!-- App JS -->
   <script type="text/javascript" src="/scripts/client.js"></script>
@@ -90,4 +96,5 @@
     type="text/javascript"
     src="/scripts/composer-char-counter.js"
   ></script>
+  
 </html>

@@ -1,6 +1,7 @@
 const $tweetText = $('#tweet-text');
 
-//Character counter function, if exceeds limit, it will go red.
+// Character counter function that keeps track of the amount of character used
+// Once limit is passed, the counter will become red
 
 const charCount = () => {
 
