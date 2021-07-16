@@ -34,3 +34,7 @@ Once you are setup can run Tweeter:
 http;//localhost:8080 to start tweeting.
 
 # Final Product
+
+!["desktop"](https://github.com/AcChrome/tweeter/blob/master/docs/Screenshot-of-desktop.jpg?raw=true)
+
+!["mobile"](https://github.com/AcChrome/tweeter/blob/master/docs/Screenshot-of-tablet-or-mobile.jpg?raw=true)
