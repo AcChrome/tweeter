@@ -30,19 +30,23 @@ const createTweetElement = (tweet) => {
   const safeHTML = `${escape(tweet.content.text)}`;
   let $tweet = $(`
   <br>
-  <article class="tweet-header">
+  <article class="tweet"> 
   <h3 class="handle">${tweet.user.handle}</h3>
   <p id="name"><img class="avatars" src="${tweet.user.avatars}"/>${
     tweet.user.name
   }</p>
   <br>
+  <body>
   <h3 class="text">${safeHTML}</h3>
+  </body>
+  <footer>
   <a class="time"><bold>${timeago.format(tweet.created_at)}</bold></a>
   <div class="icon">
     <i class="fas fa-flag"></i>
     <i class="fas fa-retweet"></i>
     <i class="fas fa-heart"></i>
   </div>
+  </footer>
 </article>
 <br>
   `);
@@ -96,8 +100,6 @@ $form.on("submit", function (event) {
 
   } else {
     $.post("/tweets", text, (response) => {
-      
-  
       $form.trigger("reset");
       loadTweets();
     });

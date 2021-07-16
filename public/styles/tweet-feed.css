@@ -1,6 +1,5 @@
 
-
-article.tweet-header {
+article.tweet {
   height: 12em;
   width: 90%;
   margin: 0, auto;
@@ -20,7 +19,7 @@ article.tweet-header {
   background: none;
   font-family: "Source Sans Pro", sans-serif;
   border-bottom: 4px solid black;
-  padding-top: 1.5em;
+  padding-top: 1em;
   padding-bottom: 1.5em;
   margin-top: 2.3em;
   margin-bottom: 0.1em;
@@ -47,7 +46,7 @@ article.tweet-header {
   color: #6B00C4;
 }
 
-article.tweet-header:hover {
+article.tweet:hover {
   box-shadow: 10px 10px #D5ADF5;
 }
 
