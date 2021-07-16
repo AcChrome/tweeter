@@ -16,19 +16,20 @@ Users are able to post tweet with their name, handle, message and the time poste
 
 Use NPM to install Tweeter:
 
-```npm install'''
+`npm install`
+
 
 # Getting Started
 
 Start using Tweeter using your own server:
 
-```npm start```
+`npm start`
 
 Default port is set to 8080.
 
 Once you are setup can run Tweeter:
 
-```npm start```
+`npm start`
 
 http;//localhost:8080 to start tweeting.
 
