@@ -23,7 +23,7 @@ Use NPM to install Tweeter:
 
 Start using Tweeter using your own server:
 
-`npm start`
+`npm run local`
 
 Default port is set to 8080.
 
@@ -31,7 +31,7 @@ Once you are setup can run Tweeter:
 
 `npm start`
 
-http;//localhost:8080 to start tweeting.
+![http;//localhost:8080](http;//localhost:8080) to start tweeting.
 
 # Final Product
 
