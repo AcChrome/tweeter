@@ -1,45 +1,47 @@
 
 
 article.tweet-header {
-  height: 240px;
+  height: 12em;
   width: 90%;
   margin: 0, auto;
   border: solid 5px;
   margin-top: 1.5em;
-  margin-left: 3.5em;
+  margin-left: 2.0em;
   padding-left: 1.5em;
+  word-wrap: break-word;
 }
 
-#bob {
+#name {
   float: left;
 }
 
-.old-tweet {
+.text {
   border: none;
   background: none;
   font-family: "Source Sans Pro", sans-serif;
   border-bottom: 4px solid black;
-  padding-bottom: 1em;
-  margin-top: 2.5em;
-  margin-bottom: 0.3em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-top: 2.3em;
+  margin-bottom: 0.1em;
   width: 98%;
+
 }
 
-.user {
+.handle {
   float: right;
   color: gray;
   margin-right: 1.5em;
 }
 
-.ten-days {
+.time {
   font-size: 16px;
   font-family: "Source Sans Pro bold", sans-serif;
-
 
 }
 
 .icon {
-  
+  word-wrap: break-word;
   float: right;
   margin-right: 1.5em;
   color: #6B00C4;

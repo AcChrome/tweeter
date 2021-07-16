@@ -34,6 +34,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/> -->
   </head>
 
   <body>
@@ -43,57 +44,45 @@
       <div class="arrow">
         <span class="newTweet"><b>Write</b> a new tweet</span>
         <br />
-        <i style="color: red" class="fas fa-angle-double-down"></i>
+        <i class="fas fa-angle-double-down"></i>
       </div>
     </nav>
 
-    <header>
+    <header id="profile">
       <div class="pic">
         <img src="/images/profile-hex.png" />
       </div>
       <br />
       <div>
-        <h2 class="name">random user</h2>
+        <h2 class="name">Antony Chan</h2>
       </div>
     </header>
 
     <!-- Page-specific (main) content here -->
     <main class="container">
       <section class="new-tweet">
-        <h2>Compose Tweet</h2>
-        <form>
+        <h3 id="error"></h3>
+        <br>
+        <form id="submit-tweet" action="/tweets" method="POST">
           <label id="hum" for="tweet-text">What are you humming about?</label>
           <textarea name="text" id="tweet-text"></textarea>
           <div>
             <button class="submit" type="submit">Tweet</button>
-            <output
-              name="counter"
-              class="counter"
-              id="wordCount"
-              for="tweet-text"
-              >140</output
-            >
+            <output name="counter"class="counter" id="counter" for="tweet-text">140</output>
           </div>
         </form>
       </section>
     </main>
     <br>
-    <article class="tweet-header">
-      <h3 class="user">@DripSauce</h3>
-      <p id="bob"><i class="fas fa-poo"></i>Bob</p>
-      <h2 class="old-tweet">I am lit cuz weather is killing me.</h2>
-      <a class="ten-days"><bold>10 days ago</bold></a>
-      <div class="icon">
-        <i class="fas fa-flag"></i>
-        <i class="fas fa-retweet"></i>
-        <i class="fas fa-heart"></i>
-      </div>
-    </article>
-  </div>
+    <article id="tweets-container"></article>
+    <br>
   </body>
+
+  
 
   <!-- External JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js" integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- App JS -->
   <script type="text/javascript" src="/scripts/client.js"></script>

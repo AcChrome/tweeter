@@ -2,11 +2,11 @@ const $tweetText = $('#tweet-text');
 
 //Character counter function, if exceeds limit, it will go red.
 
-const wordCount = () => {
+const charCount = () => {
 
   $tweetText.on('input', function() {
     const max = 140 - $(this).val().length;
-    const count = $(this).parent().find('#wordCount');
+    const count = $(this).parent().find('#counter');
     count.val(max);
     if (max < 0) {
 
@@ -20,5 +20,5 @@ const wordCount = () => {
 };
 
 $(document).ready(function() {
-  wordCount();
+  charCount();
 });

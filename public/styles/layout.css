@@ -31,6 +31,48 @@ main {
   margin-right: 0;
 }
 
+.container {
+  display: flex;
+  width: 90%;
+  align-content: center;
+  margin: 0, auto;
+  margin-left: 2em;
+  align-content: center;
+
+  
+}
+
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ @media only screen and (min-width: 1024px) {
+   #profile {
+     position: fixed;
+     margin-top: 8em;
+     margin-left: 3em;
+     float: left;
+     height: 45%;
+     width: 30%;
+    
+   }
+
+   div.pic {
+     padding-top: 3em;
+   }
+
+   .container {
+    padding-left: 5em;
+    margin-top: 8em;
+    float: right;
+    width: 65%;
+
+  }
+
+  #tweets-container {
+    float: right;
+    width: 60%;
+    
+  }
+
+ }
